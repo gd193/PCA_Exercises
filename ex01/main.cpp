@@ -56,7 +56,7 @@ int main ()
       auto endSpaltenw = Clock::now();
       DMicrosecounds resultSpaltenw = endSpaltenw - startSpaltenw;
 
-      fprintf(f, "%d %d %f %f %f ", M, N, resultSpaltenw.count(), resultZeilenw.count(), resultSpaltenw.count()/resultZeilenw.count());
+      fprintf(f, "%d %d %f %f %f \n", M, N, resultSpaltenw.count(), resultZeilenw.count(), resultSpaltenw.count()/resultZeilenw.count());
       std::cout<< M << 'x' << N << " | " << resultSpaltenw.count() << " | " << resultZeilenw.count() << " | " << resultSpaltenw.count() / resultZeilenw.count() << std::endl;
     }
   fclose(f);
