@@ -1,0 +1,4 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc-10 -DCMAKE_CXX_COMPILER=/usr/bin/g++-10 -G "CodeBlocks - Unix Makefiles" /home/eric/Documents/PCA/ex01
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eric/Documents/PCA/ex01/cmake-build-debug
