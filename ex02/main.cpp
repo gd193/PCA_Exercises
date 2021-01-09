@@ -48,12 +48,16 @@ int main (int argc, char *argv[])
 
     Matrix grid(N, std::vector<double>(N));
     initialize(grid, m, H);
-    auto start = Clock::now();
+    aueto start = Clock::now();
     for(int i=0;i<1000;i++){
         poissonstep(grid);
     };
     auto end = Clock::now();
     std::cout<< "N="<<N<<":\t The runtime of the programm is " << (end - start).count()/1e9  << "s" <<std::endl;
+    FILE *f;
+    f = fopen("results.txt", "w+");
+    fprintf(f, "%d %f %f\n", N, m, (end-start).count()/1e9);
+    fclose(f);
 
     if (N < 20)
     {
@@ -66,4 +70,5 @@ int main (int argc, char *argv[])
         std::cout<<std::endl;
     }
     else std::cout<<"Matrix size is " << N <<" and therefore to large to be printed out\n";
+  return N;
 }
