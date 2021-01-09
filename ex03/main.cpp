@@ -79,8 +79,8 @@ int main(int argc, char *argv[])
   auto endThreads = Clock::now();
   DMicrosecounds resultThreads = endThreads - startThreads;
 
-  fprintf(f, "%d %d %f %f %f \n", M, N, resultZeilenw.count(), resultThreads.count(), resultZeilenw.count()/resultThreads.count());
-  std::cout<< M << 'x' << N << " | " << resultZeilenw.count() << " | " << resultThreads.count() << " | " << resultZeilenw.count() / resultThreads.count() << std::endl;
+  fprintf(f, "%d %d %f %f %f \n", matrixSize, numberThreads, resultZeilenw.count(), resultThreads.count(), resultZeilenw.count()/resultThreads.count());
+  std::cout<< matrixSize << 'x' << numberThreads << " | " << resultZeilenw.count() << " | " << resultThreads.count() << " | " << resultZeilenw.count() / resultThreads.count() << std::endl;
 
   fclose(f);
 
