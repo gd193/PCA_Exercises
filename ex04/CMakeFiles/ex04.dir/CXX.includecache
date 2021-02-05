@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pra11/PCA_Exercises/ex04/main.cpp
+iostream
+-
+vector
+-
+random
+-
+chrono
+-
+thread
+-
+algorithm
+-
+omp.h
+-
+

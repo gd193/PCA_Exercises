@@ -1,0 +1,144 @@
+./result 10 1
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10x1 | 4.727 | 94.199 | 0.050181
+./result 10 2
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10x2 | 4.264 | 94.193 | 0.0452688
+./result 10 4
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10x4 | 4.306 | 147.987 | 0.0290972
+./result 10 8
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10x8 | 4.348 | 288.934 | 0.0150484
+./result 10 16
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10x16 | 4.279 | 546.593 | 0.00782849
+./result 10 32
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10x32 | 4.29 | 1090.34 | 0.00393457
+./result 100 1
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+100x1 | 333.271 | 488.423 | 0.682341
+./result 100 2
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+100x2 | 333.157 | 400.497 | 0.831859
+./result 100 4
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+100x4 | 341.063 | 231.852 | 1.47104
+./result 100 8
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+100x8 | 340.334 | 316.938 | 1.07382
+./result 100 16
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+100x16 | 340.733 | 537.538 | 0.633877
+./result 100 32
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+100x32 | 341.742 | 980.313 | 0.348605
+./result 500 1
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+500x1 | 8735.57 | 9823.63 | 0.889241
+./result 500 2
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+500x2 | 8717.58 | 5616.23 | 1.55221
+./result 500 4
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+500x4 | 8725.54 | 6034.59 | 1.44592
+./result 500 8
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+500x8 | 8724.32 | 4245.47 | 2.05497
+./result 500 16
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+500x16 | 8772.72 | 2093.42 | 4.19061
+./result 500 32
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+500x32 | 8722.87 | 3195.55 | 2.72969
+./result 1000 1
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+1000x1 | 47016.8 | 39537.8 | 1.18916
+./result 1000 2
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+1000x2 | 46538.4 | 21986.9 | 2.11664
+./result 1000 4
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+1000x4 | 46736.9 | 18765.4 | 2.49059
+./result 1000 8
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+1000x8 | 47501.9 | 17265.9 | 2.75121
+./result 1000 16
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+1000x16 | 46665.7 | 8725.22 | 5.34837
+./result 1000 32
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+1000x32 | 46605.3 | 8170.84 | 5.70385
+./result 5000 1
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+5000x1 | 1.0697e+06 | 964163 | 1.10946
+./result 5000 2
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+5000x2 | 1.05736e+06 | 501017 | 2.11043
+./result 5000 4
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+5000x4 | 1.90933e+06 | 358147 | 5.33115
+./result 5000 8
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+5000x8 | 1.07702e+06 | 256295 | 4.20227
+./result 5000 16
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+5000x16 | 1.86141e+06 | 152011 | 12.2452
+./result 5000 32
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+5000x32 | 1.1248e+06 | 200914 | 5.59842
+./result 10000 1
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10000x1 | 4.91847e+06 | 3.87558e+06 | 1.26909
+./result 10000 2
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10000x2 | 5.74454e+06 | 2.61519e+06 | 2.19661
+./result 10000 4
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10000x4 | 4.89125e+06 | 3.75413e+06 | 1.3029
+./result 10000 8
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10000x8 | 5.31696e+06 | 1.2708e+06 | 4.18394
+./result 10000 16
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10000x16 | 5.30343e+06 | 1.00957e+06 | 5.25315
+./result 10000 32
+Die Messergebnisse sequenzielle und parallele Matrixmultiplikation:
+M x N | t_seq [us] | t_para [us] | Ratio
+10000x32 | 4.90972e+06 | 1.28358e+06 | 3.82503

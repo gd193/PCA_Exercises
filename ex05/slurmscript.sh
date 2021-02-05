@@ -4,7 +4,7 @@
 
 for messagesize in {0..20}
 do
-    echo ./ex04 $messagesize 100
-		./ex04 $messagesize 100
-	done
+    echo $messagesize 100
+		/usr/lib64/openmpi/bin/mpirun -n 2 -mca btl tcp,self ./PingPong $messagesize 100
+		/usr/lib64/openmpi/bin/mpirun -n 2 -mca btl tcp,self ./PingExchange $messagesize 100
 done

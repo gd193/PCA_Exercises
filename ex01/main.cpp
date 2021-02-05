@@ -56,14 +56,14 @@ int main ()
       auto endSpaltenw = Clock::now();
       DMicrosecounds resultSpaltenw = endSpaltenw - startSpaltenw;
 
-      fprintf(f, "%d %d %f %f %f \n", M, N, resultSpaltenw.count(), resultZeilenw.count(), resultSpaltenw.count()/resultZeilenw.count());
-      std::cout<< M << 'x' << N << " | " << resultSpaltenw.count() << " | " << resultZeilenw.count() << " | " << resultSpaltenw.count() / resultZeilenw.count() << std::endl;
+      fprintf(f, "%d %d %f %f %f \n", M, N, resultZeilenw.count(), resultSpaltenw.count(), resultSpaltenw.count()/resultZeilenw.count());
+      std::cout<< M << 'x' << N << " | " << resultZeilenw.count() <<" | "<< resultSpaltenw.count()   << " | " << resultSpaltenw.count() / resultZeilenw.count() << std::endl;
     }
   fclose(f);
   return 0;
 }
 
-void MatrixVektorMultZeilenw(Matrix const& m, std::vector<double> const& x, std::vector<double> &y)
+void MatrixVektorMultSpaltenw(Matrix const& m, std::vector<double> const& x, std::vector<double> &y)
 {
   for(auto e : y) e = 0.;
   for(int j = 0; j < m[0].size(); j++)
@@ -76,7 +76,7 @@ void MatrixVektorMultZeilenw(Matrix const& m, std::vector<double> const& x, std:
 }
 
 
-void MatrixVektorMultSpaltenw(Matrix const& m, std::vector<double> const& x, std::vector<double> &y)
+void MatrixVektorMultZeilenw(Matrix const& m, std::vector<double> const& x, std::vector<double> &y)
 {
   for(int i = 0; i < m.size(); i++)
     {

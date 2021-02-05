@@ -1,0 +1,3 @@
+/home/pra11/PCA_Exercises/ex04/CMakeFiles/rebuild_cache.dir
+/home/pra11/PCA_Exercises/ex04/CMakeFiles/edit_cache.dir
+/home/pra11/PCA_Exercises/ex04/CMakeFiles/ex04.dir

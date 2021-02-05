@@ -1,0 +1,8 @@
+Die Messergebnisse für die spalten- und zeilenweise sequenzielle Matrixmultiplikation:
+M x N | t_row [us] | t_col [us] | Ratio
+10x10 | 4.163 | 4.465 | 1.07254
+100x100 | 335.719 | 381.006 | 1.1349
+500x500 | 8638.92 | 9479.18 | 1.09727
+1000x1000 | 46854.1 | 38076.8 | 0.812668
+5000x5000 | 2.07113e+06 | 956247 | 0.461703
+10000x10000 | 7.19822e+06 | 3.84641e+06 | 0.534356
