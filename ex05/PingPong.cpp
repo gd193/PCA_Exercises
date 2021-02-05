@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
       std::cout<< "Die Messergebnisse für PingExchange in MPI\n";
       std::cout<< "Node | Message size | runtime" << std::endl;
       FILE *f;
-      f = fopen("resultsPingExchange.txt", "a");
+      f = fopen("resultsPingPong.txt", "a");
 
       for( auto time : runtime_PingPong)
         {
